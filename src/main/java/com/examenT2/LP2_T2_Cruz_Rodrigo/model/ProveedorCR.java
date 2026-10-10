@@ -1,6 +1,8 @@
 package com.examenT2.LP2_T2_Cruz_Rodrigo.model;
 
 import java.sql.Date;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 import org.hibernate.annotations.DynamicInsert;
 
@@ -19,7 +21,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
-@Table(name = "Proveedor")
+@Table(name = "tbl_proveedor")
 @DynamicInsert
 @NoArgsConstructor
 @AllArgsConstructor
@@ -39,7 +41,7 @@ public class ProveedorCR {
     private String razonSocial;
 
     @Column(name = "fecha_registro")
-    private Date fechaRegistro;
+    private LocalDateTime fechaRegistro;
 
     @Column(name = "direccion")
     private String direccion;

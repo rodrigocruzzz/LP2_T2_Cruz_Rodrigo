@@ -2,6 +2,7 @@ package com.examenT2.LP2_T2_Cruz_Rodrigo.model;
 
 import java.math.BigDecimal;
 import java.sql.Date;
+import java.time.DateTimeException;
 
 import org.hibernate.annotations.DynamicInsert;
 
@@ -20,7 +21,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
-@Table(name = "OrdenCompra")
+@Table(name = "tbl_orden_compra")
 @DynamicInsert
 @NoArgsConstructor
 @AllArgsConstructor
@@ -48,4 +49,5 @@ public class OrdenCompraCR {
 
     @Column(name = "estado")
     private String estado;
+
 }

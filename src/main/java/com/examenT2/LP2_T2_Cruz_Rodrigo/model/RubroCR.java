@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
-@Table(name = "Rubro")
+@Table(name = "tbl_rubro")
 @DynamicInsert
 @NoArgsConstructor
 @AllArgsConstructor

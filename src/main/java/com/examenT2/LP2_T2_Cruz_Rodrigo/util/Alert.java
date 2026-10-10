@@ -1,4 +1,4 @@
-package com.examenT2.LP2_T2_Cruz_Rodrigo.model.util;
+package com.examenT2.LP2_T2_Cruz_Rodrigo.util;
 
 public class Alert {
 
